@@ -124,7 +124,7 @@ public class LoginForm extends javax.swing.JFrame {
                 new Dashboard().setVisible(true);
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Username atau Password salah!\nHarap Cek Kembali\n "); 
+            JOptionPane.showMessageDialog(null, "Username atau Sandi salah!\nHarap Cek Kembali\n "); 
         }
     } catch (HeadlessException | SQLException e) {
         JOptionPane.showMessageDialog(this, e.getMessage());
