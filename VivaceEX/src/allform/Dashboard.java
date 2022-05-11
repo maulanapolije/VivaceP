@@ -56,6 +56,8 @@ public class Dashboard extends javax.swing.JFrame {
         keluarmenu.setForeground(new java.awt.Color(153,153,153));
     }
     
+    //up
+    
     private void barangshow(){
         dashboardbtn.setBackground(new java.awt.Color(244, 239, 224));
         dashboardmenu.setForeground(new java.awt.Color(153,153,153));
